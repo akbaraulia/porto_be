@@ -1,7 +1,29 @@
 # Project Name
 
-This is a web development project using Django (Python) to create My Portfolio.
+Porto Backend 
 
-## Description
+## Prerequisites
 
-The project is built using the Python programming language and the Django framework to create the Backend, and will later be linked to React in my Repository which -> links using the API.
+- Python (3.x recommended)
+- Django
+
+## Getting Started
+
+1. Clone this repository: `git clone https://github.com/akbaraulia/porto_be.git`
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. Run the development server: `python manage.py runserver`
+
+## Usage
+
+Buat apa ? buat PORTO BANH
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- Any credits or acknowledgments you want to add.
+
