@@ -1,0 +1,28 @@
+
+# Ignore compiled Python files
+*.pyc linguist-detectable=false
+
+# Ignore SQLite database files
+*.sqlite3 linguist-detectable=false
+
+# Ignore static files
+/static/* linguist-detectable=false
+
+# Ignore media files
+/media/* linguist-detectable=false
+
+# Ignore log files
+*.log linguist-detectable=false
+
+# Ignore test files
+tests/* linguist-detectable=false
+
+# Ignore coverage files
+.coverage linguist-detectable=false
+
+# Ignore virtual environment files
+.venv/* linguist-detectable=false
+
+# Ignore pipenv files
+Pipfile linguist-detectable=false
+Pipfile.lock linguist-detectable=false
