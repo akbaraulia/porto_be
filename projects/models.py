@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.html import format_html
 
 class Project(models.Model):
     title = models.CharField(max_length=100)
@@ -12,3 +13,9 @@ class Project(models.Model):
 
     def __str__(self):
         return self.title
+    
+    def image_tag(self, obj):
+        if obj.foto1 and obj.foto1.name and hasattr(obj.foto1, 'url'):
+            return format_html('<img src="{}" width="50" height="50" />', obj.foto1.url)
+        else:
+            return "No Image"
